@@ -34,7 +34,7 @@ Legal-AI is an AI-powered platform that streamlines legal research, automates co
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/legal-ai.git
+   git clone https://github.com/loponly/legal-ai.git
    cd legal-ai
    ```
 
@@ -470,7 +470,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 Email: support@legal-ai.com
 - 💬 Discord: [Join our community](https://discord.gg/legal-ai)
 - 📖 Documentation: [docs.legal-ai.com](https://docs.legal-ai.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/legal-ai/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/loponly/legal-ai/issues)
+
+## Author
+
+**Enkhbat.E**  
+Email: enkhbat@em4it.com
 
 ## Acknowledgments
 
