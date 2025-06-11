@@ -1,0 +1,46 @@
+# LlamaIndex Configuration
+llama_index:
+  chunk_size: 1024
+  chunk_overlap: 200
+  similarity_top_k: 5
+  response_mode: "compact"
+
+# Document Processing
+document_processing:
+  max_document_size: "10MB"
+  supported_formats: ["html", "pdf", "txt"]
+  batch_size: 10
+  timeout: 30
+
+# RAG Configuration
+rag:
+  temperature: 0.1
+  max_tokens: 512
+  streaming: false
+  include_sources: true
+
+# Parsing Settings
+parsing:
+  extract_tables: true
+  extract_images: false
+  preserve_formatting: true
+  remove_headers_footers: true
+
+# GovInfo Settings
+govinfo:
+  base_url: "https://www.govinfo.gov"
+  rate_limit: 10 # requests per second
+  retry_attempts: 3
+  retry_delay: 1 # seconds
+
+# Caching
+cache:
+  enabled: true
+  ttl: 3600 # seconds
+  max_size: "1GB"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "legal_ai.log"
